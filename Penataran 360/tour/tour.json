@@ -1,0 +1,37 @@
+{
+  "title": "Penataran 360",
+  "tourId": "unusedTourId",
+  "coverAttribution": "",
+  "description": "",
+  "coverPhoto": "coverPhoto.jpg",
+  "polyCategory": "5",
+  "lastUpdateTimeMillis": 1618130935013,
+  "publishedAssetInfo": null,
+  "metadata": [],
+  "photospheres": [
+    {
+      "title": "View 1",
+      "key": "62704fc7-7c30-0e3c-b299-5b9acee3ae51.UXOtqxCrTo8",
+      "panoId": null,
+      "src": "null",
+      "audioSrc": null,
+      "narrationSrc": null,
+      "description": "",
+      "yaw": "0",
+      "pitch": "0",
+      "stereo": false,
+      "attribution": "",
+      "location": "Penataran Temple ꦕꦤ꧀ꦢꦶꦥꦼꦤꦠꦫꦤ꧀",
+      "order": 0,
+      "streetViewData": {
+        "panoId": "CAoSLEFGMVFpcE1QT2EtMjc3bG82bHVOdGsxOGtJSTJFZmtWY3o2bFdpX1FUbXVE",
+        "latlon": "-8.016423099999999, 112.2097501"
+      },
+      "sights": [],
+      "objects": null,
+      "questionsAndAnswers": [],
+      "supportedViewingModes": null
+    }
+  ],
+  "migratedFromDrive": false
+}

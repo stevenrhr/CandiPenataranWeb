@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #202020;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e42f1b;
+}
+
+body {
+    background-image: linear-gradient(rgba(24, 24, 24, 0.7), rgba(24,24,24,0.7)), url(Background5.jpg);
+    background-size: auto;
+    background-position: center;
+    color: rgb(243, 235, 235);
+}
+
+.title-logo {
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    color: #e42f1b;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1 rem;
+    position: relative;
+    font-weight: 500;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #e42f1b;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap:35px;
+    box-sizing: border-box;
+}
+
+.column-left {
+    min-height: 675px;
+    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.7), rgba(24,24,24,0.7)), url(photo360\(2\).jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.column-right .section-title {
+    margin-top: 60px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.column-right .paragraph {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.4rem;
+    color: #b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.slider-btn {
+    margin-top: 15px;
+}
+
+.slider-btn .btn-2 {
+    background-color: #e42f1b;
+    color: white;
+    margin-left: 5rem;
+    border-radius: 50px;
+    padding: 0.3rem 1.8rem;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+  
+.slider-btn .btn-2:hover {
+    background-color: #f54330;
+}
+
+.column-right-2 {
+    min-height: 675px;
+    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.7), rgba(24,24,24,0.7)), url(virtual\ reality.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+.column-left-2 .section-title {
+    margin-top: 60px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+.column-left-2 .paragraph {
+    margin-top: 15px;
+    padding: 1rem 5rem 1rem 5rem;
+    font-size: 1.4rem;
+    color: #b1b4bd;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.column-left-3 {
+    min-height: 675px;
+    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.7), rgba(24,24,24,0.7)), url(virtual\ reality.jpg);
+    background-position: 0px 0px, 100% 50%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
+@media (max-width: 968px) {
+    .meet .container {
+      flex-direction: column;
+    }
+    .column-left-2 .btn-2{
+        margin-bottom: 150px;
+    }
+}

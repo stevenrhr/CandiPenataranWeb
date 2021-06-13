@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+    min-height: 150px;
+    background-image: linear-gradient(rgba(24, 24, 24, 0.7), rgba(24,24,24,0.7)), url(Background5.jpg);
+    background-size: auto;
+    background-position: center;
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    border: 7px solid #202020;
+    box-shadow: inset 0 0 2.5px 2px rgba(0,0,0,0.5);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e42f1b;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+  
+.title-logo {
+  display: inline-block;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 10px;
+  letter-spacing: 2px;
+  color: #e42f1b;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1.4rem 1;
+    position: relative;
+    font-weight: 500;
+}
+  
+.navbar-expand-lg .navbar-nav .nav-link.active {
+  color: #e42f1b;
+}
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    grid-gap:35px;
+    box-sizing: border-box;
+}
+
+.button {
+  padding-top: 63px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+}
+
+.button .col {
+  display: inline-block;
+} 
+
+.button .btn-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 9rem;
+  background: #e42f1b;
+  text-decoration: none;
+  outline: none;
+  border-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 0.9rem;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.button .btn-1:hover {
+    background-color: #f54330;
+}
+
+.row-btn h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    position: relative;
+}
+  
+.button h1::after {
+    content: "";
+    width: 15rem;
+    height: .6rem;
+    background-color: #e42f1b;
+    position: absolute;
+    bottom: -2rem;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 2rem;
+}
+
+.photo-360 {
+    color: #d43c00;
+}
+
+.site-container {
+    margin: 2rem auto;
+    max-width: calc(100% - 80px);
+}
+  
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(265px, 1fr));
+    grid-gap: 80px;
+    padding-top: 10px;
+}
+
+.col-maps {
+    text-align: center;
+}
+
+.col-maps h5 {
+    font-size: 23px;
+}
+
+.col-maps iframe {
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.footer-bottom {
+  text-align: center;
+}

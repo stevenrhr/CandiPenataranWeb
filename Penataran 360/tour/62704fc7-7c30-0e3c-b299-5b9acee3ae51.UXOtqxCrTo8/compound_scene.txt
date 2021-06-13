@@ -1,0 +1,22 @@
+scenes {
+  name: "background_image"
+  type: PHOTOSPHERE
+  subrenderer_priority: 0
+  trigger_groups {
+    triggers {
+      name: "a"
+      trigger_type: ON_COMPOUND_SCENE_START
+    }
+    trigger_expression: "a"
+    behaviors {
+      behavior_type: START_SCENE
+    }
+    name: "start_scene"
+  }
+  pano_scene {
+    image_file_name: "tile_3_%d_%d.jpg"
+    is_mega_stereo: false
+    is_tiled_image: true
+    json_file_name: "meta.json"
+  }
+}
